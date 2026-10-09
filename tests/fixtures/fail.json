@@ -1,0 +1,54 @@
+{
+  "input": "www.wikipedia.org",
+  "success": true,
+  "grade": "F",
+  "headers": {
+    "strict-transport-security": {
+      "present": true,
+      "usable": true,
+      "value": "max-age=106384710; includeSubDomains; preload",
+      "detail": {
+        "present": true,
+        "usable": true,
+        "value": "max-age=106384710; includeSubDomains; preload",
+        "maxAgeSeconds": 106384710,
+        "maxAgeDays": 1231,
+        "includeSubDomains": true,
+        "preload": true,
+        "preloadHeaderEligible": true,
+        "preloadNote": "Header requirements only; not proof of preload membership, subdomain HTTPS or eligibility. Preloading is opt-in, not required."
+      }
+    },
+    "content-security-policy": {
+      "present": false,
+      "usable": false,
+      "value": null
+    },
+    "x-frame-options": {
+      "present": false,
+      "usable": false,
+      "value": null,
+      "detail": {
+        "source": null,
+        "xFrameOptionsOverridden": false,
+        "xFrameOptionsValid": false,
+        "protected": false
+      }
+    },
+    "x-content-type-options": {
+      "present": false,
+      "usable": false,
+      "value": null
+    },
+    "referrer-policy": {
+      "present": false,
+      "usable": false,
+      "value": null
+    },
+    "permissions-policy": {
+      "present": false,
+      "usable": false,
+      "value": null
+    }
+  }
+}

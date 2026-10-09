@@ -1,0 +1,12 @@
+{
+  "source": "Board Apify service test_run.sample",
+  "actor": "hiver/website-security-headers-audit",
+  "run_id": "zRVWvU3IcUAeM7dKU",
+  "build": "0.1.8",
+  "processed_utc": "2026-10-09T20:41Z",
+  "selection": {
+    "pass": "sample[2]",
+    "fail": "sample[0]"
+  },
+  "fields": "input, success, grade, headers copied unchanged; other fields omitted"
+}

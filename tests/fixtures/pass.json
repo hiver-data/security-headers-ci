@@ -1,0 +1,191 @@
+{
+  "input": "www.bbc.co.uk",
+  "success": true,
+  "grade": "B",
+  "headers": {
+    "strict-transport-security": {
+      "present": true,
+      "usable": true,
+      "value": "max-age=31536000; preload",
+      "detail": {
+        "present": true,
+        "usable": true,
+        "value": "max-age=31536000; preload",
+        "maxAgeSeconds": 31536000,
+        "maxAgeDays": 365,
+        "includeSubDomains": false,
+        "preload": true,
+        "preloadHeaderEligible": false,
+        "preloadNote": "Header requirements only; not proof of preload membership, subdomain HTTPS or eligibility. Preloading is opt-in, not required."
+      }
+    },
+    "content-security-policy": {
+      "present": true,
+      "usable": true,
+      "value": "default-src 'none'; script-src 'strict-dynamic' 'nonce-ZzIs92uYkPaKPonT9eBC0fOScMcumFQo4aJKAtjJerbeFwGVrl' 'self' 'report-sample' 'unsafe-inline' cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.\u2026",
+      "detail": {
+        "present": true,
+        "policies": [
+          {
+            "value": "default-src 'none'; script-src 'strict-dynamic' 'nonce-ZzIs92uYkPaKPonT9eBC0fOScMcumFQo4aJKAtjJerbeFwGVrl' 'self' 'report-sample' 'unsafe-inline' cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.\u2026",
+            "headerValue": "default-src 'none'; script-src 'strict-dynamic' 'nonce-ZzIs92uYkPaKPonT9eBC0fOScMcumFQo4aJKAtjJerbeFwGVrl' 'self' 'report-sample' 'unsafe-inline' cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.\u2026",
+            "directives": {
+              "default-src": [
+                "'none'"
+              ],
+              "script-src": [
+                "'strict-dynamic'",
+                "'nonce-ZzIs92uYkPaKPonT9eBC0fOScMcumFQo4aJKAtjJerbeFwGVrl'",
+                "'self'",
+                "'report-sample'",
+                "'unsafe-inline'",
+                "cdn.syndication.twimg.com",
+                "connect.facebook.net",
+                "c.files.bbci.co.uk",
+                "emp.bbci.co.uk",
+                "mybbc-analytics.files.bbci.co.uk"
+              ],
+              "img-src": [
+                "'self'",
+                "https:",
+                "data:"
+              ],
+              "font-src": [
+                "c.files.bbci.co.uk",
+                "gel.files.bbci.co.uk",
+                "static.files.bbci.co.uk",
+                "static.bbci.co.uk",
+                "news.files.bbci.co.uk",
+                "ws-downloads.files.bbci.co.uk",
+                "bitesize.files.bbci.co.uk"
+              ],
+              "style-src": [
+                "branding.files.bbci.co.uk",
+                "cdn.riddle.com",
+                "flo.uri.sh",
+                "news.files.bbci.co.uk",
+                "platform.twitter.com",
+                "static.bbc.co.uk",
+                "static.bbci.co.uk",
+                "static.files.bbci.co.uk",
+                "ton.twimg.com",
+                "www.riddle.com"
+              ],
+              "frame-src": [
+                "'self'",
+                "bbc001.carto.com",
+                "bbc003.carto.com",
+                "bbc-maps.carto.com",
+                "*.cdn.optimizely.com",
+                "cdn.riddle.com",
+                "chartbeat.com",
+                "emp.bbc.co.uk",
+                "emp.bbc.com",
+                "flo.uri.sh"
+              ],
+              "object-src": [
+                "'none'"
+              ],
+              "manifest-src": [
+                "static.files.bbci.co.uk",
+                "bitesize.files.bbci.co.uk"
+              ],
+              "media-src": [
+                "'self'",
+                "blob:",
+                "https:"
+              ],
+              "connect-src": [
+                "'self'",
+                "https:"
+              ],
+              "child-src": [
+                "blob:"
+              ],
+              "base-uri": [
+                "'none'"
+              ],
+              "form-action": [
+                "'self'",
+                "platform.twitter.com",
+                "syndication.twitter.com",
+                "uk-script.dotmetrics.net/DeviceInfo.dotmetrics",
+                "account.bbc.com/auth/identifier/landing"
+              ],
+              "frame-ancestors": [
+                "'none'"
+              ],
+              "upgrade-insecure-requests": [],
+              "report-to": [
+                "default"
+              ],
+              "report-uri": [
+                "https://webcore.bbc-reporting-api.app/report-endpoint"
+              ]
+            },
+            "duplicateDirectives": [],
+            "script": {
+              "directive": "script-src",
+              "sources": [
+                "'strict-dynamic'",
+                "'nonce-ZzIs92uYkPaKPonT9eBC0fOScMcumFQo4aJKAtjJerbeFwGVrl'",
+                "'self'",
+                "'report-sample'",
+                "'unsafe-inline'",
+                "cdn.syndication.twimg.com",
+                "connect.facebook.net",
+                "c.files.bbci.co.uk",
+                "emp.bbci.co.uk",
+                "mybbc-analytics.files.bbci.co.uk"
+              ],
+              "allowsUnsafeInline": false,
+              "unsafeInlineIgnored": true,
+              "hasNonceOrHash": true,
+              "strictDynamic": true,
+              "attributeDirective": "script-src",
+              "allowsInlineEventHandlers": false,
+              "evalDirective": "script-src",
+              "allowsUnsafeEval": false
+            }
+          }
+        ],
+        "reportOnlyPolicies": [],
+        "allowsUnsafeInline": false,
+        "allowsInlineEventHandlers": false,
+        "allowsUnsafeEval": false,
+        "unsafeInlineIgnored": true,
+        "frameAncestorsPresent": true,
+        "frameAncestorsRestrictive": true,
+        "objectRestricted": true,
+        "baseUriRestricted": true,
+        "semantics": "CSP3 static checks; all enforcing policies apply; findings are per-policy weaknesses, not confirmed vulnerabilities"
+      }
+    },
+    "x-frame-options": {
+      "present": true,
+      "usable": true,
+      "value": "DENY",
+      "detail": {
+        "source": "csp-frame-ancestors",
+        "xFrameOptionsOverridden": true,
+        "xFrameOptionsValid": true,
+        "protected": true
+      }
+    },
+    "x-content-type-options": {
+      "present": true,
+      "usable": true,
+      "value": "nosniff"
+    },
+    "referrer-policy": {
+      "present": true,
+      "usable": true,
+      "value": "strict-origin-when-cross-origin"
+    },
+    "permissions-policy": {
+      "present": true,
+      "usable": true,
+      "value": "accelerometer=(), autoplay=(self \"https://emp.bbc.com\" \"https://emp.bbc.co.uk\" \"http://emp.bbc.com\" \"http://emp.bbc.co.uk\"), camera=(), document-domain=(self \"https://emp.bbc.com\" \"https://emp.bbc.co.uk\" \"http://emp.bbc.com\" \"http://emp.bbc.co.uk\"), encrypted-media=(), fullscreen=(self \"https://emp.\u2026"
+    }
+  }
+}

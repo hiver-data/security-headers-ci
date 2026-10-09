@@ -1,0 +1,8 @@
+# Replace these public examples with your own deployed root URLs.
+urls:
+  - https://www.bbc.co.uk/
+minimum_grade: B
+required_headers:
+  - strict-transport-security
+  - content-security-policy
+  - x-content-type-options
