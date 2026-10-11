@@ -5,6 +5,10 @@ This GitHub Actions template runs [hiver/website-security-headers-audit](https:/
 with your own Apify token, compares each URL's grade to a YAML policy, and writes a table to the Actions job summary. A policy failure makes the job red.
 The script and workflow are free; the Actor is pay-per-use on your Apify account.
 
+![Real output from the board test run on 2026-10-09 (Actor build 0.1.9): a grade from A to F, the HSTS and CSP values and a plain list of what to fix for each site](media/security-headers/readme.gif)
+
+[Watch the 100-second walkthrough of the Actor (MP4, 1080p)](media/security-headers/walkthrough.mp4)
+
 ## Setup in 3 steps
 
 1. Copy `security_gate.py`, `requirements.txt` and `security-headers.yml` into your repository (or fork this repo). Install the template as `.github/workflows/security-headers.yml`: run `mkdir -p .github/workflows && cp workflow-template/security-headers.yml .github/workflows/security-headers.yml` from the repository root. The template is inactive until you copy it; when copying into another repository, take it from this repo's `workflow-template/` directory.
