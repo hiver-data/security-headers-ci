@@ -9,6 +9,10 @@ The script and workflow are free; the Actor is pay-per-use on your Apify account
 
 [Watch the 100-second walkthrough of the Actor (MP4, 1080p)](media/security-headers/walkthrough.mp4)
 
+## Coming from the SecurityHeaders.com API?
+
+The [SecurityHeaders.com API page](https://securityheaders.com/api/) says the service has been discontinued: no new subscriptions and no renewals (checked 2026-10-12). If a CI job of yours called it for a grade, this template does the same job with a YAML policy: grade floor per run, required headers, a Markdown table in the job summary and a red job on regression. The grade comes from the Actor's own published checklist, so letters can differ from securityheaders.com; run it on your sites once before you copy an old threshold. Unofficial, not affiliated with SecurityHeaders.com or Snyk.
+
 ## Setup in 3 steps
 
 1. Copy `security_gate.py`, `requirements.txt` and `security-headers.yml` into your repository (or fork this repo). Install the template as `.github/workflows/security-headers.yml`: run `mkdir -p .github/workflows && cp workflow-template/security-headers.yml .github/workflows/security-headers.yml` from the repository root. The template is inactive until you copy it; when copying into another repository, take it from this repo's `workflow-template/` directory.
